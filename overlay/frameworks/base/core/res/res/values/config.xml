@@ -286,6 +286,9 @@
          config to 7. -->
     <integer name="config_deviceHardwareKeys">71</integer>
 
+    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
     <!-- Internal default to navigation bar value -->
     <bool name="config_defaultToNavigationBar">false</bool>
 </resources>
