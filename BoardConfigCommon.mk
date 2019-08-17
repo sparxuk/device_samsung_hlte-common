@@ -98,7 +98,6 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
 include $(COMMON_PATH)/sepolicy/sepolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
